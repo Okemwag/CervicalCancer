@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.ml.predictor import CervicalCancerPredictor
+from ml.predictor import CervicalCancerPredictor
 from models.prediction import Prediction
 from schemas.prediction import PredictionRequest, PredictionResponse
 

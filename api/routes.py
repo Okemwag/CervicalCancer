@@ -4,7 +4,7 @@ from database.session import get_db
 from schemas.patient import PatientCreate, PatientResponse
 from schemas.prediction import PredictionRequest, PredictionResponse
 from crud.patient import create_patient, get_patient, get_patients
-from app.services.prediction_service import PredictionService
+from services.prediction_service import PredictionService
 
 router = APIRouter()
 
